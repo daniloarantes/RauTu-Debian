@@ -26,3 +26,13 @@ git commit -m "Descrição do Commit"
 git remote add origin git@github.com:usuario/repositorio.git
 git push -u origin master
 ```
+
+# Liberando memória RAM ociosa
+
+O sistema sempre deixa ativa uma parte da memória RAM que foi usada por um aplicativo que já foi terminado, caso o mesmo volte a ser usado.
+
+Para liberar esta memória, aplique o seguinte comando:
+
+```bash
+# sysctl -w vm.drop_caches=3
+```
