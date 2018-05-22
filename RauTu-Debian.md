@@ -1,3 +1,6 @@
+## Criado por Danilo Arantes
+### danilo@daniloarantes.com
+
 # Converter Markdown para PDF
 
 Instalar pacotes:
@@ -36,3 +39,5 @@ Para liberar esta memória, aplique o seguinte comando:
 ```bash
 # sysctl -w vm.drop_caches=3
 ```
+
+
