@@ -1,6 +1,5 @@
-**Criado por Danilo Arantes**
+**Criado por Danilo Arantes** (*danilo@daniloarantes.com*)
 
-*danilo@daniloarantes.com*
 Modifique o arquivo de acordo com sua necessidade
 
 # Converter Markdown para PDF
