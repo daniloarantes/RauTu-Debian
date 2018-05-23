@@ -43,6 +43,4 @@ Para liberar esta memória, aplique o seguinte comando:
 
 <<<<<<< HEAD
 23/05/2018
-=======
 
->>>>>>> 7482e79ad0f858a4a7fbee4473c29db508b7d40a
