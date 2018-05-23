@@ -36,3 +36,5 @@ Para liberar esta memória, aplique o seguinte comando:
 ```bash
 # sysctl -w vm.drop_caches=3
 ```
+
+23/05/2018
