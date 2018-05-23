@@ -31,6 +31,27 @@ git remote add origin git@github.com:usuario/repositorio.git
 git push -u origin master
 ```
 
+## Sincronizar repositório local com GitHub
+
+```bash
+git fetch origin
+git pull
+```
+
+## Se os repositórios estiverem diferentes
+
+```bash
+git fetch origin
+git status
+git add .
+git commit -m "Commit msg"
+git pull --> vai dar erro
+
+git add .
+git commit -m "Fix conflicts"
+git pull
+```
+
 # Liberando memória RAM ociosa
 
 O sistema sempre deixa ativa uma parte da memória RAM que foi usada por um aplicativo que já foi terminado, caso o mesmo volte a ser usado.
