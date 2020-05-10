@@ -16,6 +16,10 @@ Para converter um arquivo criado com **markdown** para **pdf**, configurando as 
 pandoc -s -V geometry:margin=1in -o documentation.pdf part01.md part02.md
 ```
 
+```bash
+Rscript -e "rmarkdown::render('/tmp/teste.Rmd')"
+```
+
 # Git e GitHub
 
 Criar repositório no GitHub e depois realizar o processo abaixo:
